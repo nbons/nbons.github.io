@@ -1,0 +1,48 @@
+:root {
+  --indent-top: 100px;
+  --body-width: 650px;
+}
+
+* {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#top-bar {
+  position: fixed;
+  height: var(--indent-top);
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+#left-nav {
+  position: fixed;
+  top: 0px;
+  right: calc(50% + var(--body-width)/2);
+  max-width: 200px;
+  height: calc(100% - var(--indent-top));
+}
+
+.nav-list {
+  position: relative;
+  top: 40%;
+  font-size: x-large;
+}
+
+#main-content {
+  position: relative;
+  margin-top: var(--indent-top);
+  padding-left: 20px;
+  padding-right: 20px;
+  left: calc(50% - var(--body-width)/2);
+  max-width: var(--body-width);
+  height: calc(100% - var(--indent-top));;
+  overflow-y: scroll;
+}
+
+.nav-link {
+  --bs-nav-link-padding-y: 1rem;
+}
