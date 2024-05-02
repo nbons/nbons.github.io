@@ -1,3 +1,7 @@
+:root {
+  --accent-color: #1e90ff;
+}
+
 * {
   font-family: "EB Garamond", serif;
   font-optical-sizing: auto;
@@ -5,18 +9,24 @@
   font-style: normal;
 }
 
-#main-content {
-  max-width: 600px;
+.ital {
+  font-style: italic;
 }
 
-.margin {
-  min-width: 150px;
+#main-content {
+  max-width: 600px;
+  min-width: 300px;
 }
 
 .sticky-nav {
   font-size: x-large;
   position: fixed;
   top: 250px;
+  text-align: end;
+}
+
+.nav-icon {
+  float: right;
 }
 
 .section-head {
@@ -24,5 +34,35 @@
 }
 
 .nav-link {
+  color: var(--accent-color);
   --bs-nav-link-padding-y: 1rem;
+}
+
+.entry-title {
+  margin-bottom: 2px;
+}
+
+.entry-subtitle {
+  color: grey;
+  font-size: small;
+}
+
+.entry-sublist-title {
+  margin-top: 8px;
+  margin-bottom: 0px;
+}
+
+.entry-body {
+  margin-top: 5px;
+}
+
+ul.no-bullets {
+  list-style-type: none; /* Remove bullets */
+  /* padding: 0;
+  margin: 0; */
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
 }
