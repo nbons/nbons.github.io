@@ -66,3 +66,29 @@ a {
   color: var(--accent-color);
   text-decoration: none;
 }
+
+a:hover {
+  opacity: 0.7;
+}
+
+.contact-block {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding: 10px 15px;
+}
+
+.fa {
+  padding: 2px;
+  font-size: 12px;
+  width: 20px;
+  text-align: center;
+  /* text-decoration: none; */
+  vertical-align: top;
+  margin: 4px 0px;
+}
+
+.fa-linkedin {
+  background: var(--accent-color);
+  color: white;
+}
