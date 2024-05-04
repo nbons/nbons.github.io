@@ -4,8 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>NPB</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
@@ -16,7 +15,7 @@
     rel="stylesheet">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -24,6 +23,26 @@
     <div class="container-fluid text-center">
       <h1>Nic Bons</h1>
       <h6>engineer | developer | creator</h6>
+      <div class="d-block d-sm-none xs-nav">
+        <a href="#section-vision">
+          <span class="xs-nav-icon material-symbols-outlined">visibility</span>
+        </a>
+        <a href="#section-employment">
+          <span class="xs-nav-icon material-symbols-outlined">work</span>
+        </a>
+        <a href="#section-education">
+          <span class="xs-nav-icon material-symbols-outlined">school</span>
+        </a>
+        <a href="#section-projects">
+          <span class="xs-nav-icon material-symbols-outlined">construction</span>
+        </a>
+        <a href="#section-skills">
+          <span class="xs-nav-icon material-symbols-outlined">verified</span>
+        </a>
+        <a href="#section-about">
+          <span class="xs-nav-icon material-symbols-outlined">emoji_people</span>
+        </a>
+      </div>
       <div class="contact-block">
         <a href="mailto:npbons@gmail.com" class="material-symbols-outlined">
           mail
@@ -46,7 +65,7 @@
               <a class="nav-link" href="#section-about">About Me</a>
             </nav>
           </div>
-          <div class="d-block d-md-none">
+          <div class="d-none d-sm-block d-md-none">
             <nav class="nav flex-column nav-list">
               <a class="nav-link" href="#section-vision">
                 <span class="nav-icon material-symbols-outlined">visibility</span>
@@ -248,6 +267,8 @@
       <div class="col-3 margin"></div>
     </div>
   </div>
-</body>
+  <script>
 
+  </script>
+</body>
 </html>

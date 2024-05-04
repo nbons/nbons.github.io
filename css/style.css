@@ -30,12 +30,24 @@
 }
 
 .section-head {
-  padding-top: 100px;
+  padding-top: 105px;
 }
 
 .nav-link {
   color: var(--accent-color);
   --bs-nav-link-padding-y: 1rem;
+}
+
+.xs-nav {
+  /* left: 0px; */
+  color: var(--accent-color);
+  height: 35px;
+  text-align: center;
+  padding: 5px 0px;
+}
+
+.xs-nav-icon {
+  padding: 0px 5px;
 }
 
 .entry-title {
@@ -57,9 +69,7 @@
 }
 
 ul.no-bullets {
-  list-style-type: none; /* Remove bullets */
-  /* padding: 0;
-  margin: 0; */
+  list-style-type: none;
 }
 
 a {
