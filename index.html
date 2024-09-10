@@ -21,8 +21,10 @@
 <body>
   <nav class="fixed-top bg-body-tertiary">
     <div class="container-fluid text-center">
-      <h1>Nic Bons</h1>
-      <h6>engineer | developer | creator</h6>
+      <div class="py-3">
+        <h1>Nic Bons</h1>
+        <h6>engineer | developer | creator</h6>
+      </div>
       <div class="d-block d-sm-none xs-nav">
         <a href="#section-vision">
           <span class="xs-nav-icon material-symbols-outlined">visibility</span>
@@ -91,14 +93,16 @@
       </div>
       <div id="main-content" class="col-6 pb-5">
         <h2 id="section-vision" class="section-head">Vision</h2>
-        My graduate training is in high-fidelity multidisciplinary design optimization, which involves developing accurate and efficient computational models of physical systems, customizing them to interface with a gradient-based optimizer, and running paral- lelized programs on HPC clusters.
-        I have experience developing optimization software and architecting system models in Cameo at Northrop Grumman.
-        I am interested in opportunities to develop computational models of physical processes and harness these models to inform design decisions.
+        <p>
+          My graduate training is in high-fidelity multidisciplinary design optimization, which involves developing accurate and efficient computational models of physical systems, customizing them to interface with a gradient-based optimizer, and running parallelized programs on HPC clusters.
+          I have experience developing optimization software and architecting system models in Cameo at Northrop Grumman.
+          I am interested in opportunities to develop computational models of physical processes and harness these models to inform design decisions.
+        </p>
 
         <h2 id="section-employment" class="section-head">Employment</h2>
 
         <div class="border-bottom py-2">
-          <h5 class="entry-title">Senior Principal Scientific Software Developer</h5>
+          <h5 class="entry-title">Senior Principal Scientific Software Engineer</h5>
           <div class="entry-subtitle">Northrop Grumman | Baltimore, MD | April 2023&ndash;present</div>
           Developing automation software for large-scale physics research lab.
         </div>
@@ -172,18 +176,7 @@
           </ul>
         </div>
 
-
         <h2 id="section-projects" class="section-head">Projects</h2>
-
-        <div class="border-bottom py-2">
-          <h5 class="entry-title">
-            <a href="https://www.chronologer.org">
-              Chronologer
-            </a>
-          </h5>
-          <div class="entry-subtitle">A website for connecting to history</div>
-          <p>A big picture blurb about chronologer.</p>
-        </div>
 
         <div id="dissertation" class="py-2">
           <h5 class="entry-title">
@@ -193,7 +186,14 @@
           <div class="entry-subtitle">
             Ph.D. Dissertation | May 2020
           </div>
-          <p>A big picture blurb about my dissertation.</p>
+          <p>
+            The design of an aircraft is determined by the demands of business aims, government regulations, and the hard facts of physics.
+            Multidisciplinary problems like aircraft design, which can have thousands of design variables and constraints, are only tractable using a gradient-based optimizer with adjoint derivatives.
+            To realistically optimize an aircraft wing requires solving coupled computational models of fluid dynamics and structural mechanics and then propagating sensitivities of the functions of interest (lift, drag, weight, etc.) through the models to obtain derivatives with respect to design variables.
+            Armed with adequate and accurate information, an optimizer can explore a design space more comprehensively than has traditionally been possible by passing a design back and forth between disciplines in an engineering organization.
+            However, the question arises whether the tools are sensitive enough to traverse the design space without getting stuck in artificial local minima.
+            This dissertation explores the phenomena of local minima in aircraft design problems and demonstrates the remarkable capability of an optimizer to predictably traverse a large design space to arrive at an optimal solution.
+          </p>
           <p>The chapters of my dissertation were published in three peer-reviewed journal articles:</p>
           <ul class="no-bullets">
             <li>
@@ -209,6 +209,46 @@
               <div class="entry-subtitle">N. P. Bons, X. He, C. A. Mader, and J. R. R. A. Martins | <i class="ital">AIAA Journal</i> | January 2019</div>
             </li>
           </ul>
+        </div>
+
+        <div class="border-bottom py-2">
+          <h5 class="entry-title">
+            <a href="https://www.chronologer.org">
+              Chronologer
+            </a>
+          </h5>
+          <div class="entry-subtitle">A website for connecting people to history</div>
+          <p>
+            Chronologer is a platform for interactive timeline visualizations.
+            Built with Django and d3.js.
+          </p>
+        </div>
+
+        <div class="border-bottom py-2">
+          <h5 class="entry-title">
+            <a href="https://www.soboballet.com">
+              South Baltimore Ballet
+            </a>
+          </h5>
+          <div class="entry-subtitle">A homegrown website for a homegrown studio</div>
+          <p>
+            My wife decided to try her hand at providing a walkable ballet studio for young kids in our Baltimore neighborhood (including our own three).
+            I decided that I wanted the website to be as clean and classically styled as her approach to ballet.
+            Built with Django and vanilla javascript.
+          </p>
+        </div>
+
+        <div class="border-bottom py-2">
+          <h5 class="entry-title">
+            <a href="https://therowhomestead.com">
+              The Row Homestead
+            </a>
+          </h5>
+          <div class="entry-subtitle">Our experience renovating a classic Baltimore rowhome</div>
+          <p>
+            In March 2023, we bought a rowhome that hadn't changed hands in 80+ years.
+            We gutted the place and have had the adventure of a lifetime reimagining it and then bringing that vision to life with our own hands.
+          </p>
         </div>
 
         <h2 id="section-skills" class="section-head">Skills</h2>
@@ -258,11 +298,25 @@
         </div>
 
         <h2 id="section-about" class="section-head">About Me</h2>
-        Nic Bons is a husband and father of 3 girls.
-        An engineer by training and profession, he specializes in optimization and computational physics modeling.
-        He is a self-professed Wikipedia addict and loves reading books about history.
-        In his free time, he enjoys playing piano and guitar and enjoying the outdoors with friends and family.
-
+        <p>
+          From California and Ohio, respectively, my wife and I and decided early on to make the most of opportunities to venture out and live in new places.
+          With our (now) three little girls, we've made homes in the Midwest, the Mountain West, and on both coasts.
+          In LA, we lived our best beach life and walked to the beach multiple times a week.
+          In Utah, we spent nearly every weekend and some weekdays teaching our 4 and 2-year-olds how to ski.
+          And now, we spend all our spare time fixing up a rowhome in the city.
+        </p>
+        <p>
+          I'm an engineer by training and profession, and my graduate field of study was in optimization and computational physics modeling.
+          Along the way, I've gravitated toward scientific software development and find great satisfaction in facilitating techonlogical advancements through elegant and user-friendly software solutions.
+        </p>
+        <p>
+          I'm a reader not a gamer.
+          I rarely watch shows but I love movies.
+          I'm not a sports fan but I enjoy playing sports.
+          I'm glad everyone else likes watching sports because that means less people are skiing and sailing.
+          I make really good homemade pancakes and pasta, but anything else takes me at least 3 times longer than my wife, so I'm mostly the sous-chef/dish-washer.
+          My dream is to someday have a family band.
+        </p>
       </div>
       <div class="col-3 margin"></div>
     </div>
